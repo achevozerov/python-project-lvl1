@@ -20,5 +20,5 @@ jobs:
       # Runs the Super-Linter action
       - name: Run linter
         run:
-          make install
+          pip install poetry
           make lint
