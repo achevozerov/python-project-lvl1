@@ -8,7 +8,7 @@ from brain_games import cli
 def main():
     """
     Print welcome message then call welcome_user func.
-    
+
     Returns:
             username (str): name choiced by user.
     """
