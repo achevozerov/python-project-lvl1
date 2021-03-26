@@ -4,3 +4,5 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/5a0e0aa9745b1d4a7b6c/maintainability)](https://codeclimate.com/github/achevozerov/python-project-lvl1/maintainability)
 
 ![example workflow](https://github.com/achevozerov/python-project-lvl1/actions/workflows/superlinter.yml/badge.svg)
+
+https://asciinema.org/a/kOAKXFH6N7zupEOjHePgJVJbd
