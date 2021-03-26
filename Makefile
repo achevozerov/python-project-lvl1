@@ -4,6 +4,9 @@ install:
 brain-games:
 	python3 -m poetry run brain-games
 
+brain-even:
+	python3 -m poetry run brain-even
+
 build:
 	python3 -m poetry build
 
