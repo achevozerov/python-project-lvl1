@@ -5,4 +5,5 @@
 
 ![example workflow](https://github.com/achevozerov/python-project-lvl1/actions/workflows/superlinter.yml/badge.svg)
 
+Brain even console game asciinema:
 https://asciinema.org/a/kOAKXFH6N7zupEOjHePgJVJbd
