@@ -10,6 +10,9 @@ brain-even:
 brain-calc:
 	python3 -m poetry run brain-calc
 
+brain-gcd:
+	python3 -m poetry run brain-gcd
+
 build:
 	python3 -m poetry build
 

@@ -34,9 +34,9 @@ def check_right(question_num, answer):
     return answer_is_right
 
 
-def generate_answer(name, right_answer_count=0):
+def generate_question(name, right_answer_count=0):
     """
-    Generate answer and check his right.
+    Generate question and check his right.
 
     Parameters:
         name (str): user name
@@ -52,7 +52,7 @@ def generate_answer(name, right_answer_count=0):
     if answer_is_right:
         print('Correct!')
         right_answer_count += 1
-        generate_answer(name, right_answer_count)
+        generate_question(name, right_answer_count)
     else:
         print('Try again', name, '!')
 
@@ -61,7 +61,7 @@ def main():
     """Launch even game."""
     name = cli.welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    generate_answer(name)
+    generate_question(name)
 
 
 if __name__ == '__main__':

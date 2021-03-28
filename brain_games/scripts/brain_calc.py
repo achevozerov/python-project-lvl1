@@ -50,7 +50,7 @@ def check_right(answer, right_answer, name):
     return False
 
 
-def generate_question(name, right_answer_count=0):
+def generate_questions(name, right_answer_count=0):
     """
     Generate answer and manage game processing.
 
@@ -74,7 +74,8 @@ def generate_question(name, right_answer_count=0):
     answer = prompt.string('Your answer: ', empty=False)
     if check_right(answer, right_answer, name):
         right_answer_count += 1
-        generate_question(name, right_answer_count)
+        print('Correct!')
+        generate_questions(name, right_answer_count)
     else:
         return
 
@@ -85,4 +86,8 @@ def main():
     name = cli.welcome_user()
     # Write rules
     print('What is the result of the expression?')
-    generate_question(name)
+    generate_questions(name)
+
+
+if __name__ == '__main__':
+    main()
