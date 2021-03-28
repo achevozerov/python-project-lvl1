@@ -19,12 +19,22 @@ def check_right(right_answer, answer):
     """
     if right_answer == int(answer):
         return True
-    else:
-        print(f'{int(answer)} is wrong answer ;(. Correct answer was {int(right_answer)}')
-        return False
+    print(f'{int(answer)} is wrong answer ;(. Correct answer was {int(right_answer)}')
+    return False
 
 
 def find_max_common_divisor(first_num, second_num, name):
+    """
+    Find max common divisor of two numbers.
+
+    Parameters:
+        first_num (int): first number
+        second_num (int): second number
+        name (string): user name
+
+    Returns:
+        max(common_elements) (int): max common divisor of two numbers
+    """
     first_divisors_list = []
     second_divisors_list = []
     for i in range(2, first_num + 1):
@@ -36,8 +46,7 @@ def find_max_common_divisor(first_num, second_num, name):
     common_elements = [x for x in first_divisors_list if x in second_divisors_list]
     if len(common_elements) == 0:
         return 'uncorrect elements was generated'
-    else:
-        return max(common_elements)
+    return max(common_elements)
 
 
 def generate_questions(name, right_answer_count=0):
