@@ -13,3 +13,6 @@ Brain calc console game example:
 
 Brain gcd console game example:
 [![asciicast](https://asciinema.org/a/kWCV6Da0FXO8IOsGAQAiVcvp2.svg)](https://asciinema.org/a/kWCV6Da0FXO8IOsGAQAiVcvp2)
+
+Brain progression console game example:
+[![asciicast](https://asciinema.org/a/vnZgBMZmR100T4DRSTeRsipRa.svg)](https://asciinema.org/a/vnZgBMZmR100T4DRSTeRsipRa)
