@@ -58,7 +58,7 @@ def generate_answer(name, right_answer_count=0):
         print('Try again', name, '!')
 
 
-def play_even():
+def main():
     """Launch even game."""
     # Greets user
     name = cli.welcome_user()
@@ -69,4 +69,4 @@ def play_even():
 
 
 if __name__ == '__main__':
-    play_even()
+    main()

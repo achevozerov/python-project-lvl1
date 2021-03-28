@@ -7,6 +7,9 @@ brain-games:
 brain-even:
 	python3 -m poetry run brain-even
 
+brain-calc:
+	python3 -m poetry run brain-calc
+
 build:
 	python3 -m poetry build
 
