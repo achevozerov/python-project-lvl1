@@ -5,5 +5,8 @@
 
 ![example workflow](https://github.com/achevozerov/python-project-lvl1/actions/workflows/superlinter.yml/badge.svg)
 
-Brain even console game asciinema:
-https://asciinema.org/a/kOAKXFH6N7zupEOjHePgJVJbd
+Brain even console game example:
+[![asciicast](https://asciinema.org/a/kOAKXFH6N7zupEOjHePgJVJbd.svg)](https://asciinema.org/a/kOAKXFH6N7zupEOjHePgJVJbd)
+
+Brain calc console game example:
+[![asciicast](https://asciinema.org/a/X2mr6MR3CZvWXz6zYO3RixL46.svg)](https://asciinema.org/a/X2mr6MR3CZvWXz6zYO3RixL46)
