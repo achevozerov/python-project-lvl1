@@ -27,7 +27,6 @@ def check_right(question_num, answer):
     Returns:
         result (bool): checker answer.
     """
-    answer_is_right = False
     if question_num % 2 == 0 and answer == 'yes':
         answer_is_right = True
     elif question_num % 2 != 0 and answer == 'no':
@@ -60,11 +59,8 @@ def generate_answer(name, right_answer_count=0):
 
 def main():
     """Launch even game."""
-    # Greets user
     name = cli.welcome_user()
-    # Rules
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    # First question
     generate_answer(name)
 
 

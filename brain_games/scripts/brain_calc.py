@@ -1,4 +1,4 @@
-"""Contains main function that starts the calc game"""
+"""Contains main function that starts the calc game."""
 
 from random import randint
 
@@ -9,7 +9,7 @@ from brain_games import cli
 def generate_expression():
     """
     Generate expression for calc game.
-    
+
     Returns:
         first_digit (int): first num in expression
         second_digit (int): second num in expression
@@ -28,6 +28,26 @@ def generate_expression():
     else:
         second_digit = randint(1, 100)
     return expression_type, first_digit, second_digit
+
+
+def check_right(answer, right_answer, name):
+    """
+    Check correctly answer.
+
+    Parameters:
+        answer (int): user answer
+        right_answer (int): right answer
+        name (string): user name
+
+    Returns:
+        bool: user answer is correct?
+    """
+    if int(answer) == right_answer:
+        print('Correct!')
+        return True
+    print(f'{answer} is wrong answer ;(. Correct answer was {right_answer}')
+    print("Let's try again,", name, '!')
+    return False
 
 
 def generate_question(name, right_answer_count=0):
@@ -52,19 +72,15 @@ def generate_question(name, right_answer_count=0):
         print('Question:', first_digit, '*', second_digit)
         right_answer = first_digit * second_digit
     answer = prompt.string('Your answer: ', empty=False)
-    if int(answer) == right_answer:
+    if check_right(answer, right_answer, name):
         right_answer_count += 1
-        print('Correct!')
+        generate_question(name, right_answer_count)
     else:
-        print(str(answer), 'is wrong answer ;(. Correct answer was', str(right_answer))
-        print('Let\'s try again,', name, '!')
         return
-    generate_question(name, right_answer_count)
-    
 
 
 def main():
-    """Launch the calc game"""
+    """Launch the calc game."""
     # Greets user
     name = cli.welcome_user()
     # Write rules
