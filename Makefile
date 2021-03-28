@@ -12,6 +12,9 @@ brain-calc:
 
 brain-gcd:
 	python3 -m poetry run brain-gcd
+	
+brain-progression:
+	python3 -m poetry run brain-progression
 
 build:
 	python3 -m poetry build
