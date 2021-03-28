@@ -10,3 +10,6 @@ Brain even console game example:
 
 Brain calc console game example:
 [![asciicast](https://asciinema.org/a/X2mr6MR3CZvWXz6zYO3RixL46.svg)](https://asciinema.org/a/X2mr6MR3CZvWXz6zYO3RixL46)
+
+Brain gcd console game example:
+[![asciicast](https://asciinema.org/a/kWCV6Da0FXO8IOsGAQAiVcvp2.svg)](https://asciinema.org/a/kWCV6Da0FXO8IOsGAQAiVcvp2)
